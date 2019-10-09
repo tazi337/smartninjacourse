@@ -1,0 +1,70 @@
+body{
+    background: lavender;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.upcenter{
+width: 250px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+.inline{
+width: 400px;
+display: inline-block;
+}
+
+.inline-padding{
+width: 400px;
+padding-left: 100px;
+display: inline-block;
+}
+.inline-small{
+width: 250px;
+margin-left: 100px;
+display: inline-block;
+}
+h1{
+color: coral;
+font-family: "Arial Black", Gadget, sans-serif;
+text-shadow: 2px 2px darkslategrey;
+font-size: 225%;
+}
+.footer{
+font-size: 10px;
+color: darkgrey;
+background-color: darkslategrey;
+padding: 30px;
+margin-top: 50px;
+}
+strong{
+color: darkslategrey;
+font-size: 125%;
+}
+.image{
+border: 5px solid coral;
+}
+.image:hover{
+border: 5px solid darkslategrey;
+}
+.button{
+background-color: coral;
+border: none;
+color: white;
+padding: 10px;
+width: 200px;
+text-align: center;
+}
+.button:hover{
+background-color: darkslategrey;
+border: none;
+color: white;
+padding: 10px;
+width: 200px;
+text-align: center;
+}
+.search{
+border-radius: 50px;
+height: 35px;
+text-align: center;
+}
