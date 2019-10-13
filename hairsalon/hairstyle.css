@@ -1,0 +1,71 @@
+.navbar-height{
+height:100px;
+}
+
+.mysearch {
+    color: white;
+    border-color: plum;
+}
+.mysearch:hover {
+    color: plum;
+    border-color: plum;
+    background-color: white;
+}
+.imgsize{
+height: 550px;
+}
+.heading{
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+}
+body{
+font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+.caption{
+font-size: 25px;
+text-shadow: 2px 2px black;
+}
+.btn-plum{
+background-color: plum;
+border-color: plum;
+}
+.btn-plum:hover{
+background-color: white;
+border-color: plum;
+    color: plum;
+}
+.card-plum{
+border-color: plum;}
+.col-pad{
+padding-right: 50px;}
+.faqwidth{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+.acccolor{
+border-color: plum;
+background-color: #343a40;
+}
+.btn-color{
+color: plum;}
+.btn-color:hover{
+color: plum;}
+
+footer{
+background-color: #343a40;
+color: white;
+margin-top: 70px;
+padding-top: 50px;
+padding-bottom: 50px;}
+
+.afoot{
+color: plum;
+}
+.afoot:hover{
+color: white;
+text-decoration: underline;
+}
