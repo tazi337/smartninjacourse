@@ -1,0 +1,42 @@
+.container-fluid {
+    background-color: #2d2e30;
+    color: #D9DDE2;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+    margin-bottom: 0px;  
+}
+.navbar-brand {
+    color: #C19D0B !important;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: none;
+}
+.panel-title {
+    font-weight: bold;
+}
+.panel-body {
+    color: #2D2E30;
+}
+/* PADDINGS */
+.padding-30 {
+    padding: 30px;
+}
+.padding-0 {
+    padding: 0px;
+}
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+     
+}
+.padding-60 {
+    padding: 60px;
+}
+.margin-0 {
+    margin: 0px;
+}
+.border-0 {
+    border-bottom: 0px;
+}
