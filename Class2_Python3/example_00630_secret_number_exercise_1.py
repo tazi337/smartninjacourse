@@ -6,19 +6,20 @@
 # that it shows the number of attempts
 # after each failed attempt
 
-secret = "7"
-counter = 1
 
-while True:
+secret = "10"
+counter = 0
+
+while counter < 5:
     guess = input("Guess the secret number")
+    counter += 1
 
     if guess == secret:
-        print("Oh, so great!, you won!")
-        break
-    elif counter > 5:
-        print("You Lost!")
+        print("You won!")
         break
     else:
-        print("Oh no, please try again.")
-        counter += 1
-        print(counter)
+        print("Try again!")
+
+else:
+    print("Game Over")
+

@@ -11,4 +11,16 @@
 # 19 -> ye
 # 35 -> 35
 
+for number in range(100):
+
+    if number % 2 == 0:
+        print("yu")
+    elif number > 50:
+        print("yo")
+    elif number < 20:
+        print("ye")
+    else:
+        print(number)
+
+
 

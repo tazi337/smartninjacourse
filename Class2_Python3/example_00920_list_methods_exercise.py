@@ -5,3 +5,13 @@
 # now extend your planets list
 # with the planets: "venus", "mars"
 # print your list
+
+planets = []
+planets.append("earth")
+print(planets)
+
+planets.extend(["venus", "mars"])
+print(planets)
+
+
+

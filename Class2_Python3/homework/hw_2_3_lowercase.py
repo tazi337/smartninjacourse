@@ -1,12 +1,12 @@
 def lowercase(text: str) -> str:
     # add your function here
-    return ""
+    return text.lower()
 
 
 def test_lowercase():
-    assert lowercase("hi") == "HI"
-    assert lowercase("my Bread") == "my Bread"
-    assert lowercase("DoNe!") == "DONE!"
+    assert lowercase("hi") == "hi"
+    assert lowercase("my Bread") == "my bread"
+    assert lowercase("DoNe!") == "done!"
 
 
 if __name__ == '__main__':
