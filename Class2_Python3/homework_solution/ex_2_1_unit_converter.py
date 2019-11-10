@@ -8,9 +8,15 @@ def unit_converter(source_unit: str, target_unit: str, value: float) -> float:
     else:
         return "Cannot convert these units"
     try:
-        return round(value * conversion_rate, 2)
+        return round(value * conversion_rate, 2) # rundet auf 2 Stellen
     except:
         return "Failed to Convert"
+
+
+# Zeile 2-9 findet die Umrechungszahl heraus
+# else, alles andere - z.B. inch - ist nicht möglich
+# try: - das wäre die Rechnung, die er versuchen soll
+# except: - wenn ein Fehler ausgeworfen worden wäre, dann stürzt mir das programm trotzdem nicht ab
 
 
 def test_unit_converter():

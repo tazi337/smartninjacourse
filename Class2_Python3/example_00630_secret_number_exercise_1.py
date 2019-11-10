@@ -6,6 +6,27 @@
 # that it shows the number of attempts
 # after each failed attempt
 
+secret = "1"
+counter = 5
+
+while counter > 0:
+
+    counter -= 1
+    guess = input("guess the number")
+
+    if guess == secret:
+        print("yes, the guess was right!")
+    else:
+        print(f"Sorry, thats not correct. Number of further guesses: {counter}")
+
+else:
+    print("game over")
+
+
+
+
+
+
 
 secret = "10"
 counter = 0

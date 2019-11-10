@@ -5,6 +5,7 @@
 # if the counter is greater than 20 stop the loop
 # otherwise print the number
 
+
 counter = 0
 
 while True:
