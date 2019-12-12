@@ -1,0 +1,27 @@
+{% extends "frame.html" %}
+
+{% block title %}
+Books
+{% endblock title %}
+
+{% block css %}
+    <link href="/static/css/style.css" rel="stylesheet">
+{% endblock css %}
+
+
+{% block content %}
+
+<h1>Best Book</h1>
+
+{% if not books %}
+    <p>The list is empty</p>
+
+{% else %}
+    {% for book in books %}
+            <p>{{book.booktitle}}</p>
+            <p>{{book.bookauthor}}</p>
+
+    {% endfor %}
+{% endif %}
+{% endblock content %}
+

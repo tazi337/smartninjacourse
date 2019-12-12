@@ -1,0 +1,28 @@
+{% extends "frame.html" %}
+
+{% block title %}
+Add a Book
+{% endblock title %}
+
+{% block css %}
+{% endblock css %}
+
+
+{% block content %}
+<h1>Please Add Your Book</h1>
+<br><br>
+
+<form method="post">
+  <div class="form-group">
+    <label for="exampleInputbookauthor1">Title</label>
+    <input name="booktitle" type="text" class="form-control" id="exampleInputbookauthor1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputbooktitle1">Author</label>
+    <input name="bookauthor" type="text" class="form-control" id="exampleInputbooktitle1">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+{% endblock content %}

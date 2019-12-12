@@ -1,0 +1,29 @@
+{% extends "frame.html" %}
+
+{% block title %}
+Edit Books
+{% endblock title %}
+
+{% block css %}
+{% endblock css %}
+
+
+{% block content %}
+<h1>Edit Books</h1>
+<br>
+
+
+<form method="post">
+  <div class="form-group">
+    <label for="exampleInputbookauthor1">Title</label>
+    <input name="booktitle" value="{{book.booktitle}}" type="text" class="form-control" id="exampleInputbookauthor1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputbooktitle1">Author</label>
+    <input name="bookauthor" value="{{book.bookauthor}}" type="text" class="form-control" id="exampleInputbooktitle1">
+  </div>
+  <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+
+{% endblock content %}

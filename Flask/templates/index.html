@@ -1,21 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Hello, SmartNinja</title>
-        <link rel="stylesheet" href="/static/css/style.css">
-    </head>
+{% extends "frame.html" %}
 
-    <body>
-        <h1>Welcome back to HTML ;)</h1>
-    <a href="/portfolio">Portfolio</a>
-    <a href="/about">About</a>
-        <a href="/secret-number-game">Game</a>
-        <a href="/blog">Blog</a>
-    <img src="/static/img/smartninja.png">
+{% block title %}
+Hello, SmartNinja
+{% endblock title %}
+
+{% block css %}
+    <link href="/static/css/style.css" rel="stylesheet">
+{% endblock css %}
 
 
-    <p>{{myname}}</p>
-
-    </body>
-</html>
+{% block content %}
+<h1>Welcome back to HTML ;)</h1>
+<br>
+<a href="/portfolio">Portfolio</a>
+<a href="/about">About</a>
+<a href="/secret-number-game">Game</a>
+<a href="/blog">Blog</a><br>
+<a href="/books">Booklist</a><br><br>
+<img src="/static/img/smartninja.png"><br><br>
+<p>{{myname}}</p>
+{% endblock content %}

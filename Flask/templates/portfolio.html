@@ -1,12 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Portfolio</title>
-</head>
-<body>
+{% extends "frame.html" %}
+
+{% block title %}
 Portfolio
-<a href="/about">About</a>
+{% endblock title %}
+
+{% block css %}
+    <link href="/static/css/style.css" rel="stylesheet">
+{% endblock css %}
+
+
+{% block content %}
+<p>Portfolio Auszug:</p>
+<a href="/about">About</a><br>
 <a href="/">Index</a>
-</body>
-</html>
+{% endblock content %}
